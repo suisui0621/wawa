@@ -17,10 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     UILabel *lableLb = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
     lableLb.backgroundColor = UIColor.redColor;
     lableLb.text = @"革命尚未成功,小连还需努力~";
     [self.view addSubview:lableLb];
+    
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
+//    label.text = @"哈哈哈";
+//    [self.view addSubview:label];
+    
     
 
 }
